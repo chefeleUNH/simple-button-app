@@ -19,7 +19,7 @@ struct ContentView: View {
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .frame(height: 75)
                 .foregroundColor(.black)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.green]), startPoint:  .leading, endPoint: .trailing))
+                .background(Color.blue)
                 .cornerRadius(5)
             
             Link("Launch website",
@@ -28,7 +28,7 @@ struct ContentView: View {
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .frame(height: 75)
                 .foregroundColor(.black)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.green]), startPoint:  .leading, endPoint: .trailing))
+                .background(Color.blue)
                 .cornerRadius(5)
         }
         .padding(50)
